@@ -21,4 +21,4 @@ def register(bot,message):
         else:
             bot.send_message(message.chat.id,'Anda hanya bisa memilih founder atau investor')
     except IndexError:
-        bot.send_message(message.chat.id, 'Pastikan format penulisan sudah tertulis dengan benar')
+        bot.send_message(message.chat.id, 'Pastikan format penulisan sudah tertulis dengan benar')bayley
